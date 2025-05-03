@@ -1,6 +1,6 @@
 # Spelling Correction for Myanmar Text Using SymSpell
 
-This project explores the use of [SymSpell](https://github.com/wolfgarbe/SymSpell) algorithm for correcting spelling errors in Myanmar text. It is inspired by the paper titled [SymSpell4Burmese] (https://ieeexplore.ieee.org/document/9678171), which applies the Symmetric Delete Spelling Correction technique to the Myanmar language.
+This project explores the use of [SymSpell](https://github.com/wolfgarbe/SymSpell) algorithm for correcting spelling errors in Myanmar text. It is inspired by the paper titled [SymSpell4Burmese](https://ieeexplore.ieee.org/document/9678171), which applies the Symmetric Delete Spelling Correction technique to the Myanmar language.
 
 We conducted testing on a small set of manually selected sentences containing common spelling errors. The system successfully corrected various typographical errors such as ဟုတိ, ဘူူး, and ဒီေနြ. It also handled some phonetic errors (e.g., correcting ပတ်သတ်), though corrections that require contextual understanding remain challenging. Additionally, the system struggles with informal or non-standard language often found on social media, including slang and abbreviations.
 
@@ -33,7 +33,7 @@ pip install symspellpy
 
 ## Frequency Dictionary Creation
 
-Use [build_dict.py]() to generate unigram and bigram frequency dictionaries.
+Use [build_dict.py](https://github.com/ei-thandar-phyu/NLP-projects/blob/main/myanmar-spellcheck-symspell/build_dict.py) to generate unigram and bigram frequency dictionaries.
 
 ### Unigram Dictionary
 
@@ -70,7 +70,7 @@ Bigram Dictionary
 
 ### Running Spell Correction
 
-- Open the jupyter notebook: [MMSpellCorrect_SymSpell.ipynb] ()
+- Open the jupyter notebook: [MMSpellCorrect_SymSpell.ipynb](https://github.com/ei-thandar-phyu/NLP-projects/blob/main/myanmar-spellcheck-symspell/MMSpellCorrect_SymSpell.ipynb)
 - Load the generated frequency dictionaries
 - Perform correction using SymSpellMyanmar 
 - View corrected output
