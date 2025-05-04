@@ -43,4 +43,11 @@ The primary goal of this project is to:
 
 ---
 
+## Kaggle Notebook
+
+You can also explore this project on Kaggle:
+
+
+---
+
 Dataset © Amazon. Refer to [Kaggle Terms](https://www.kaggle.com/terms) for dataset usage policy.
