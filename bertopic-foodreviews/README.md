@@ -43,6 +43,4 @@ The primary goal of this project is to:
 
 ---
 
-## 📬 License
-
 Dataset © Amazon. Refer to [Kaggle Terms](https://www.kaggle.com/terms) for dataset usage policy.
